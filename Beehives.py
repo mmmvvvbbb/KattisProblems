@@ -3,6 +3,7 @@ import sys
 import math
 
 # STILL WIP (BEDTIME)
+
 def dist(x1, y1, x2, y2, expected):
     return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2) <= expected
 
