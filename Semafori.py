@@ -6,5 +6,5 @@ for i in range(0, a):
     time += c - dist
     dist = c
     if time % (e + f) <= e:
-        time += e - (time % (e + f));
+        time += e - (time % (e + f))
 print time + b - c
